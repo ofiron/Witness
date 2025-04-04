@@ -1,3 +1,4 @@
+#if os(macOS)
 //
 //  Witness.swift
 //  Witness
@@ -33,3 +34,4 @@ public struct Witness {
     }
 }
 
+#endif

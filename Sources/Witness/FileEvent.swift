@@ -1,3 +1,4 @@
+#if os(macOS)
 //
 //  FileEvent.swift
 //  Witness
@@ -128,3 +129,4 @@ extension FileEventFlags: CustomStringConvertible {
         return strings.joined(separator: ",")
     }
 }
+#endif

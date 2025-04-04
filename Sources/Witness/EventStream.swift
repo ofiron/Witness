@@ -1,3 +1,4 @@
+#if os(macOS)
 //
 //  EventStream.swift
 //  Witness
@@ -93,3 +94,4 @@ public struct EventStreamCreateFlags: OptionSet {
     public static let FileEvents = EventStreamCreateFlags(kFSEventStreamCreateFlagFileEvents)
     public static let MarkSelf = EventStreamCreateFlags(kFSEventStreamCreateFlagMarkSelf)
 }
+#endif
